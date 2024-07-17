@@ -4,7 +4,6 @@ import {Header} from "../Header/Header";
 import {Nav} from "../Nav/Nav";
 import s from "./Layout.module.scss"
 import {Main} from "../Main/Main";
-import {log} from "node:util";
 
 type Props = {
     showNav?: boolean
