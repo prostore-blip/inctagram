@@ -1,5 +1,5 @@
 import {PageWrapper} from "../../../components/PageWrapper/PageWrapper";
-import {getLayout} from "../../../components/Layout/BaseLayout/BaseLayout";
+import {getNavLayout} from "../../../components/Layout/NavLayout/NavLayout";
 
 export function UserProfile() {
     return (
@@ -9,5 +9,5 @@ export function UserProfile() {
     )
 }
 
-UserProfile.getLayout = getLayout
+UserProfile.getLayout = getNavLayout
 export default UserProfile
