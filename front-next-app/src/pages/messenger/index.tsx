@@ -1,5 +1,5 @@
 import {PageWrapper} from "../../../components/PageWrapper/PageWrapper";
-import {getLayout} from "../../../components/Layout/BaseLayout/BaseLayout";
+import {getNavLayout} from "../../../components/Layout/NavLayout/NavLayout";
 
 export function Messenger() {
     return (
@@ -9,5 +9,5 @@ export function Messenger() {
     )
 }
 
-Messenger.getLayout = getLayout
+Messenger.getLayout = getNavLayout
 export default Messenger
