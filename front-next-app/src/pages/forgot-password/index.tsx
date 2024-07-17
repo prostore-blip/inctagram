@@ -1,9 +1,12 @@
-export default function ForgotPassword() {
+import {PageWrapper} from "../../../components/PageWrapper/PageWrapper";
+import {getLayout} from "../../../components/Layout/BaseLayout/BaseLayout";
+
+export  function ForgotPassword() {
     return (
-        <>
-            <main>
+            <PageWrapper>
                 ForgotPassword
-            </main>
-        </>
+            </PageWrapper>
     )
 }
+ForgotPassword.getLayout = getLayout
+export default ForgotPassword;
