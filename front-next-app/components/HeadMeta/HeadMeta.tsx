@@ -6,7 +6,7 @@ export const HeadMeta = () => {
         <Head>
             <title>{"InstaSamkaGram"}</title>
             <meta name="description" content={"CloneInstaForBigMoney"}/>
-            <link rel="icon" href="/favicon.svg"/>
+            <link rel="icon" href="../../public/favicon.ico"/>
         </Head>
     );
 };
