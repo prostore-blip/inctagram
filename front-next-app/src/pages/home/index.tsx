@@ -1,5 +1,5 @@
 import {PageWrapper} from "../../../components/PageWrapper/PageWrapper";
-import {getLayout} from "../../../components/Layout/BaseLayout/BaseLayout";
+import {getNavLayout} from "../../../components/Layout/NavLayout/NavLayout";
 
 export function Home() {
   return (
@@ -8,5 +8,5 @@ export function Home() {
     </PageWrapper>
   )
 }
-Home.getLayout = getLayout
+Home.getLayout = getNavLayout
 export default Home
