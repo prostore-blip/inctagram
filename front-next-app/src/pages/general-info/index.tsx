@@ -1,5 +1,5 @@
 import {PageWrapper} from "../../../components/PageWrapper/PageWrapper";
-import {getLayout} from "../../../components/Layout/BaseLayout/BaseLayout";
+import {getNavLayout} from "../../../components/Layout/NavLayout/NavLayout";
 
 export  function GeneralInfo() {
   return (
@@ -8,5 +8,5 @@ export  function GeneralInfo() {
     </PageWrapper>
   )
 }
-GeneralInfo.getLayout = getLayout
+GeneralInfo.getLayout = getNavLayout
 export default GeneralInfo
