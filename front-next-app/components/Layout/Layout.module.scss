@@ -1,0 +1,11 @@
+.container {
+  border: 3px solid orange;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 150px 1fr;
+
+  &.gridHaveOneCol {
+    grid-template-columns: 1fr;
+  }
+}
